@@ -14,9 +14,6 @@
     font-size: 2.5em;
 }
 
-.contact-data a{
-    color: var(--text-color-inverse);
-}
 
 .contact-data a:hover{
     color: var(--secundary-color);
