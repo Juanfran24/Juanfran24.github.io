@@ -5,9 +5,8 @@
     grid-template-columns: 1fr 1fr;
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
-    margin: 10px 100px;
-    padding: 10px;
     border-radius: 1em;
+    margin: 0 5em;
 }
 
 .contact-data h2{
@@ -27,23 +26,24 @@
 
 .contact-data-contacto {
     padding: 50px;
-    margin: auto;
+    text-align: center;
 }
 
 
 .contact-data-redes{
     padding: 50px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* configuracion para moviles */
 
 @media (max-width: 950px){
     .contact-data{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
         text-align: center;
+        margin: 0 2em;
     }
 
     .contact-data h2{
